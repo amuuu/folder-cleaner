@@ -41,8 +41,7 @@ for target_ext_category in TARGET_EXTENSIONS:
     new_path_str = TARGET_DIR + target_ext_category + "/"
     path = Path(new_path_str)
     if not path.exists():
-        path.mkdir()  # parents=True
-        # path.mkdir(parents=True)
+        path.mkdir()
     for target_ext in TARGET_EXTENSIONS[target_ext_category]:
         if target_ext in maps:
             for file in maps[target_ext]:

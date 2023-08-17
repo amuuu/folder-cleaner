@@ -1,2 +1,4 @@
 test_folder/*
 test_folder_raw/*
+
+.vscode/*
